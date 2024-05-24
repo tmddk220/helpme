@@ -152,9 +152,14 @@ class BoardInsideActivity : AppCompatActivity() {
                     val dataModel = dataSnapshot.getValue(BoardModel::class.java)
                     Log.d(TAG, dataModel!!.title)
 
-                    binding.titleArea.text = dataModel!!.title
+                    binding.titleArea.text = dataModel!!.reviewtitle
                     binding.textArea.text = dataModel!!.content
                     binding.timeArea.text = dataModel!!.time
+                    binding.authorArea.text = dataModel!!.author
+                    binding.ratingBar.rating = dataModel!!.rating
+                    binding.booktitleArea.text = dataModel!!.title
+
+
 
                     val myUid = FBAuth.getUid()
                     val writerUid = dataModel.uid

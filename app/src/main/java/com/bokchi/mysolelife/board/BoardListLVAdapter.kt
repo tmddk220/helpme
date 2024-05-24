@@ -40,7 +40,9 @@ class BoardListLVAdapter(val context: Context, val boardList: MutableList<BoardM
 
         val itemLinearLayoutView = view?.findViewById<LinearLayout>(R.id.itemView)
         val title = view?.findViewById<TextView>(R.id.titleArea)
-        val content = view?.findViewById<TextView>(R.id.contentArea)
+        val reviewtitle = view?.findViewById<TextView>(R.id.reviewtitleArea)
+        val author  = view?.findViewById<TextView>(R.id.authorArea)
+        //val content = view?.findViewById<TextView>(R.id.contentArea)
         val time = view?.findViewById<TextView>(R.id.timeArea)
         val image = view?.findViewById<ImageView>(R.id.getImageArea)
 
@@ -49,8 +51,10 @@ class BoardListLVAdapter(val context: Context, val boardList: MutableList<BoardM
         }
 
         title!!.text = boardList[position].title
-        content!!.text = boardList[position].content
+        //content!!.text = boardList[position].content
         time!!.text = boardList[position].time
+        author!!.text = boardList[position].author
+        reviewtitle!!.text = boardList[position].reviewtitle
 
         // 이미지 다운로드 및 표시
         getImageData(boardKeyList[position], image)

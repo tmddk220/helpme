@@ -54,6 +54,8 @@ class BoardEditActivity : AppCompatActivity() {
             .setValue(
                 BoardModel(binding.titleArea.text.toString(),
                     binding.contentArea.text.toString(),
+                    binding.authorArea.text.toString(),
+                    binding.reviewtitleArea.toString(),
                     writerUid,
                     FBAuth.getTime())
             )
@@ -99,6 +101,8 @@ class BoardEditActivity : AppCompatActivity() {
 
                 binding.titleArea.setText(dataModel?.title)
                 binding.contentArea.setText(dataModel?.content)
+                binding.authorArea.setText(dataModel?.author)
+                binding.reviewtitleArea.setText(dataModel?.reviewtitle)
                 writerUid = dataModel!!.uid
 
 
