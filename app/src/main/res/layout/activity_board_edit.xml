@@ -47,8 +47,8 @@
                     android:id="@+id/titleArea"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_marginTop="0dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
                     android:layout_marginRight="10dp"
                     android:hint="책의 제목을 입력하세요" />
 
@@ -239,6 +239,7 @@
                     android:layout_marginRight="20dp"
                     android:background="#000000"/>
 
+                <!-- 수정버튼이 있는데 입력버튼이 왜 필요한지 모르겠어서 보류(승은)
                 <Button
                     android:id="@+id/writeBtn"
                     android:text="입력"
@@ -247,7 +248,7 @@
                     android:layout_marginTop="50dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"/> -->
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -261,7 +262,8 @@
                     android:text="수정"
                     android:layout_width="match_parent"
                     android:background="@drawable/background_radius_yellow"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_height="wrap_content"/>

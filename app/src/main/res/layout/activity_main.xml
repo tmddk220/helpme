@@ -14,10 +14,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="30dp"
             android:layout_height="40dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/min_logo"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/iconserror"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

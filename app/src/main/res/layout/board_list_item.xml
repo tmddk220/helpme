@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/itemView"
     android:layout_width="match_parent"
-    android:layout_height="360dp"
+    android:layout_height="350dp"
     android:orientation="vertical">
 
     <ImageView
@@ -33,9 +33,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="0dp"
-        android:text="content"
+        android:text="booktitle"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/authorArea"
@@ -44,9 +44,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="0dp"
-        android:text="content"
+        android:text="author"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/timeArea"
