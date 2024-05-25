@@ -47,14 +47,18 @@
                     android:id="@+id/titleArea"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_margin="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
                     android:hint="책의 제목을 입력하세요" />
 
                 <EditText
                     android:id="@+id/authorArea"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_margin="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:hint="책의 저자를 입력하세요" />
 
 
@@ -68,12 +72,6 @@
                     android:layout_height="wrap_content"
                     android:text="  장르"
                     android:textSize="8pt" />
-
-                //장르 라디오버튼
-                /*LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:background="#000000"/>*/
 
                 <LinearLayout
                     android:id="@+id/genreGroup1"
@@ -202,6 +200,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="2dp"
                     android:text="  별점"
                     android:textSize="8pt" />
 
@@ -217,14 +217,18 @@
                     android:id="@+id/reviewtitleArea"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_margin="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:hint="리뷰의 제목을 입력하세요" />
 
                 <EditText
                     android:id="@+id/contentArea"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
-                    android:layout_margin="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/transparent"
                     android:hint="본문을 입력하세요" />
 
@@ -235,6 +239,7 @@
                     android:layout_marginRight="20dp"
                     android:background="#000000"/>
 
+                <!-- 수정버튼이 있는데 입력버튼이 왜 필요한지 모르겠어서 보류(승은)
                 <Button
                     android:id="@+id/writeBtn"
                     android:text="입력"
@@ -243,7 +248,7 @@
                     android:layout_marginTop="50dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"/> -->
 
                 <LinearLayout
                     android:layout_width="match_parent"

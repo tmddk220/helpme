@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.bokchi.mysolelife.fragments.HomeFragment"
+        android:name="com.bokchi.MyPagetalk.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/bookmarkFragment"
-        android:name="com.bokchi.mysolelife.fragments.BookmarkFragment"
+        android:name="com.bokchi.MyPagetalk.fragments.BookmarkFragment"
         android:label="fragment_bookmark"
         tools:layout="@layout/fragment_bookmark" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/storeFragment"
-        android:name="com.bokchi.mysolelife.fragments.StoreFragment"
+        android:name="com.bokchi.MyPagetalk.fragments.StoreFragment"
         android:label="fragment_store"
         tools:layout="@layout/fragment_store" >
         <action
@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/tipFragment"
-        android:name="com.bokchi.mysolelife.fragments.TipFragment"
+        android:name="com.bokchi.MyPagetalk.fragments.TipFragment"
         android:label="fragment_tip"
         tools:layout="@layout/fragment_tip" >
         <action
@@ -80,7 +80,7 @@
     </fragment>
     <fragment
         android:id="@+id/talkFragment"
-        android:name="com.bokchi.mysolelife.fragments.TalkFragment"
+        android:name="com.bokchi.MyPagetalk.fragments.TalkFragment"
         android:label="fragment_talk"
         tools:layout="@layout/fragment_talk" >
         <action

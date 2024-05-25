@@ -15,27 +15,38 @@
         android:layout_marginRight="5dp" />
 
     <TextView
-        android:id="@+id/titleArea"
+        android:id="@+id/reviewtitleArea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="2dp"
-        android:text="title"
+        android:text="reviewtitle"
         android:textColor="@color/black"
         android:textSize="17sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/contentArea"
+        android:id="@+id/titleArea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="0dp"
-        android:text="content"
+        android:text="booktitle"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/authorArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:text="author"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/timeArea"

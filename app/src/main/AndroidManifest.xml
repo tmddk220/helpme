@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bokchi.mysolelife">
+    package="com.bokchi.MyPagetalk">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -12,23 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MySoleLife">
-        <activity android:name=".setting.SettingActivity"></activity>
-        <activity android:name=".board.BoardEditActivity" />
-        <activity android:name=".board.BoardInsideActivity" />
-        <activity android:name=".board.BoardWriteActivity" />
-        <activity android:name=".contentsList.ContentShowActivity" />
-        <activity android:name=".contentsList.ContentListActivity" />
-        <activity android:name=".auth.JoinActivity" />
-        <activity android:name=".auth.LoginActivity" />
-        <activity android:name=".auth.IntroActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.bokchi.MyPagetalk.setting.SettingActivity"></activity>
+        <activity android:name="com.bokchi.MyPagetalk.board.BoardEditActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.board.BoardInsideActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.board.BoardWriteActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.contentsList.ContentShowActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.contentsList.ContentListActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.auth.JoinActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.auth.LoginActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.auth.IntroActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.bokchi.MyPagetalk.MainActivity" />
     </application>
 
 </manifest>
