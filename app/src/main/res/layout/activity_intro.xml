@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:paddingTop="180dp"
+                android:paddingTop="190dp"
                 android:text="독서를 공유하는 우리들의 공간"
                 android:textAlignment="center"
                 android:textColor="@color/text_100"
