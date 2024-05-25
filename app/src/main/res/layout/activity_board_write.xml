@@ -10,7 +10,7 @@
         tools:context=".board.BoardWriteActivity"
         android:orientation="vertical">
 
-        //스크롤 뷰
+        <!--스크롤 뷰-->
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -76,11 +76,12 @@
                     android:text="  장르"
                     android:textSize="8pt" />
 
-                //장르 라디오버튼
-               /*LinearLayout
+                <!--장르 라디오버튼
+                LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#000000"/>*/
+                    android:background="#000000"/>
+                -->
 
                 <LinearLayout
                     android:id="@+id/genreGroup1"
@@ -287,7 +288,7 @@
                     android:id="@+id/writeBtn"
                     android:text="입력"
                     android:layout_width="match_parent"
-                    android:background="@drawable/background_radius_yellow"
+                    android:background="@drawable/background_radius_green"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"

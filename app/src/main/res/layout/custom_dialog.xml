@@ -9,7 +9,7 @@
         android:id="@+id/editBtn"
         android:text="수정버튼"
         android:layout_width="match_parent"
-        android:background="@drawable/background_radius_yellow"
+        android:background="@drawable/background_radius_green"
         android:layout_margin="20dp"
         android:layout_height="wrap_content"/>
 
@@ -17,7 +17,7 @@
         android:id="@+id/removeBtn"
         android:text="삭제버튼"
         android:layout_width="match_parent"
-        android:background="@drawable/background_radius_yellow"
+        android:background="@drawable/background_radius_green"
         android:layout_margin="20dp"
         android:layout_height="wrap_content"/>
 

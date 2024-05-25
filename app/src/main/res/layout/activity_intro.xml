@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".auth.IntroActivity">
@@ -14,59 +13,63 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:src="@drawable/loginbg"
-                android:layout_width="match_parent"
-                android:scaleType="fitXY"
-                android:layout_height="500dp"/>
-
-            <ImageView
-                android:src="@drawable/upperbg"
-                android:layout_alignParentBottom="true"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="360dp"/>
-
 
             <LinearLayout
+                android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
-                android:orientation="vertical"
+                android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_margin="10dp"
-                android:layout_height="wrap_content">
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/loginBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background_radius_green"
                     android:text="로그인"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:background="@drawable/background_radius"
-                    android:layout_width="match_parent"
-                    android:layout_margin="5dp"
-                    android:layout_height="60dp"/>
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/joinBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="100dp"
+                    android:background="@drawable/background_radius_green"
                     android:text="회원가입"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:background="@drawable/background_radius"
-                    android:layout_margin="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"/>
-
-                <Button
-                    android:id="@+id/noAccountBtn"
-                    android:text="비회원 가입"
-                    android:layout_margin="5dp"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:background="@drawable/background_radius"
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"/>
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/intro_appname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="120dp"
+                android:text="Pagetalk"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/intro_appslogan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="180dp"
+                android:text="독서를 공유하는 우리들의 공간"
+                android:textAlignment="center"
+                android:textColor="@color/text_100"
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
